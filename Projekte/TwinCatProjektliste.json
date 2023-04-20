@@ -1,0 +1,104 @@
+﻿{
+    "PlcProjektliste": [
+        {
+            "Bezeichnung": "Übungsplatte",
+            "Kommentar": "Geriebemotor",
+            "ProjektDatei": "PlcProjekt.sln",
+            "SoftwareVersion": "TwinCatV3",
+            "ProgrammDigitalTwin": "DtGetriebemotor.exe",
+            "OrdnerDeltaDigitalTwin": "DtGetriebemotor",
+            "OrdnerTemplateDigitalTwin": "DtTemplate",
+            "OrdnerPlc": "TEST_ST_Getriebemotor",
+            "OrdnerTwinCatTemplate": "PlcTemplate",
+            "OrdnerFactoryIo": "-",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "TemplateOrdnerKopieren",
+                "DeltaOrdnerKopieren",
+                "ProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ],
+            "Textbausteine": [
+                {
+                    "BausteinId": "5",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - Head",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "10",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "8",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - </body>",
+                    "WasAnzeigen": "NurInhalt"
+                }
+            ]
+        },
+        {
+            "Bezeichnung": "Übungsplatte",
+            "Kommentar": "Linearachse",
+            "ProjektDatei": "PlcProjekt.sln",
+            "SoftwareVersion": "TwinCatV3",
+            "ProgrammDigitalTwin": "DtLinearachse.exe",
+            "OrdnerDeltaDigitalTwin": "DtLinearachse",
+            "OrdnerTemplateDigitalTwin": "DtTemplate",
+            "OrdnerPlc": "TEST_ST_Linearachse",
+            "OrdnerTwinCatTemplate": "PlcTemplate",
+            "OrdnerFactoryIo": "-",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "TemplateOrdnerKopieren",
+                "DeltaOrdnerKopieren",
+                "ProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ],
+            "Textbausteine": [
+                {
+                    "BausteinId": "5",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - Head",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "10",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "8",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - </body>",
+                    "WasAnzeigen": "NurInhalt"
+                }
+            ]
+        }
+    ]
+}

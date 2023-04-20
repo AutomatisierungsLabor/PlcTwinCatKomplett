@@ -1,0 +1,91 @@
+﻿{
+    "QuellOrdner": "s:\\Linder Kurt\\PlcTwinCAT_Komplett\\Projekte",
+    "ZielOrdner": "s:\\Linder Kurt\\PlcTwinCAT",
+    "TemplateOrdner": "s:\\Linder Kurt\\PlcTwinCAT\\PlcTemplate",
+    "TemplateListe": [
+        {
+            "Ordner": "",
+            "Dateien": [
+                "Start.cmd"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt",
+            "Dateien": [
+                "PlcProjekt.sln"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt\\PlcProjekt\\_Boot",
+            "Dateien": [
+                "TargetDescription.xml"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt\\PlcProjekt\\PlcProjekt\\_Libraries\\3s - smart software solutions gmbh\\uml statechart types\\4.0.2.1",
+            "Dateien": [
+                "uml_statechart_types.compiled-library"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt\\PlcProjekt\\PlcProjekt\\_Libraries\\beckhoff automation gmbh\\tc2_standard\\3.3.3.0",
+            "Dateien": [
+                "tc2_standard.compiled-library"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt\\PlcProjekt\\PlcProjekt\\_Libraries\\beckhoff automation gmbh\\tc2_system\\3.4.24.0",
+            "Dateien": [
+                "tc2_system.compiled-library"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt\\PlcProjekt\\PlcProjekt\\_Libraries\\beckhoff automation gmbh\\tc2_utilities\\3.3.40.0",
+            "Dateien": [
+                "tc2_utilities.compiled-library"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt\\PlcProjekt\\PlcProjekt\\_Libraries\\beckhoff automation gmbh\\tc3_module\\3.3.21.0",
+            "Dateien": [
+                "tc3_module.compiled-library"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt\\PlcProjekt\\PlcProjekt",
+            "Dateien": [
+                "PlcTask.TcTTO"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt\\PlcProjekt\\PlcProjekt\\GVLs",
+            "Dateien": [
+                "AA.TcGVL",
+                "AI.TcGVL",
+                "Blinker.TcGVL",
+                "DA.TcGVL",
+                "DI.TcGVL",
+                "Plc_AN.TcGVL",
+                "Plc_DIO.TcGVL",
+                "Plc_dSub.TcGVL",
+                "_PcToPlc.TcGVL",
+                "_PlcToPc.TcGVL"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt\\PlcProjekt\\PlcProjekt\\POUs",
+            "Dateien": [
+                "MAIN.TcPOU"
+            ]
+        },
+        {
+            "Ordner": "PlcProjekt\\PlcProjekt\\PlcProjekt\\POUs\\Privat",
+            "Dateien": [
+                "AlleBitSetzen.TcPOU",
+                "BitLesen.TcPOU",
+                "DatenRangieren.TcPOU",
+                "SystemFunktionen.TcPOU"
+            ]
+        }
+    ]
+}

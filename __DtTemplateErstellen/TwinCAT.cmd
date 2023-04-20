@@ -1,0 +1,2 @@
+cd s:\Linder Kurt\PlcTwinCAT_Komplett\__DtTemplateErstellen\
+PlcTemplateErstellen.exe DtTemplateStruktur.json
