@@ -1,7 +1,7 @@
 ﻿{
-    "QuellOrdner": "s:\\Linder Kurt\\PlcTwinCAT_Komplett\\Projekte",
-    "ZielOrdner": "s:\\Linder Kurt\\PlcTwinCAT",
-    "TemplateOrdner": "s:\\Linder Kurt\\PlcTwinCAT\\PlcTemplate",
+    "QuellOrdner": "d:\\git\\PlcTwinCATKomplett\\Projekte",
+    "ZielOrdner": "d:\\git\\PlcTwinCAT",
+    "TemplateOrdner": "d:\\git\\PlcTwinCAT\\PlcTemplate",
     "TemplateListe": [
         {
             "Ordner": "",
