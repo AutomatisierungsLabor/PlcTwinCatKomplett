@@ -1,0 +1,86 @@
+﻿{
+    "Bezeichnung": "Übungsplatte1",
+    "Kommentar": "Linearachse",
+    "ProjektDatei": "PlcProjekt.sln",
+    "SoftwareVersion": "TwinCatV3",
+    "ProgrammDigitalTwin": "DtLinearachse.exe",
+    "OrdnerDigitalTwin": "DtLinearachse",
+    "OrdnerDigitalTwinTemplate": "DtTemplate",
+    "OrdnerPlc": "TEST_ST_Linearachse",
+    "OrdnerTwinCatTemplate": "PlcTemplate",
+    "OrdnerFactoryIo": "-",
+    "Sprache": "St",
+    "Kategorie": "AutoTests",
+    "Jobs": [
+        "TemplateOrdnerKopieren",
+        "DeltaOrdnerKopieren",
+        "ProjektStarten",
+        "DigitalTwinKopieren",
+        "DigitalTwinStarten"
+    ],
+    "ListeTextbausteinEintrag": [
+        {
+            "BausteinId": "5",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Html - Head",
+            "WasAnzeigen": "NurInhalt"
+        },
+        {
+            "BausteinId": "153",
+            "PrefixH1": "1. ",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Hardware",
+            "WasAnzeigen": "H1Inhalt"
+        },
+        {
+            "BausteinId": "154",
+            "PrefixH1": "2. ",
+            "PrefixH2": "2.1 ",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Variante 1",
+            "WasAnzeigen": "H1H2Inhalt"
+        },
+        {
+            "BausteinId": "155",
+            "PrefixH1": "2. ",
+            "PrefixH2": "2.2 ",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Variante 2",
+            "WasAnzeigen": "H2Inhalt"
+        },
+        {
+            "BausteinId": "156",
+            "PrefixH1": "2. ",
+            "PrefixH2": "2.3 ",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Variante 3",
+            "WasAnzeigen": "H2Inhalt"
+        },
+        {
+            "BausteinId": "157",
+            "PrefixH1": "2. ",
+            "PrefixH2": "2.4 ",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Variante 4",
+            "WasAnzeigen": "H2Inhalt"
+        },
+        {
+            "BausteinId": "8",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Html - </body>",
+            "WasAnzeigen": "NurInhalt"
+        }
+    ]
+}
