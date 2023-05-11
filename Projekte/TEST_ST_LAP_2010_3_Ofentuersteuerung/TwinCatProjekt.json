@@ -1,0 +1,59 @@
+﻿{
+    "Bezeichnung": "Übungsplatte1",
+    "Kommentar": "Linearachse",
+    "ProjektDatei": "PlcProjekt.sln",
+    "SoftwareVersion": "TwinCatV3",
+    "ProgrammDigitalTwin": "DtLinearachse.exe",
+    "OrdnerDigitalTwin": "DtLinearachse",
+    "OrdnerDigitalTwinTemplate": "DtTemplate",
+    "OrdnerPlc": "TEST_ST_Linearachse",
+    "OrdnerTwinCatTemplate": "PlcTemplate",
+    "OrdnerFactoryIo": "-",
+    "Sprache": "St",
+    "Kategorie": "AutoTests",
+    "Jobs": [
+        "TemplateOrdnerKopieren",
+        "DeltaOrdnerKopieren",
+        "ProjektStarten",
+        "DigitalTwinKopieren",
+        "DigitalTwinStarten"
+    ],
+    "ListeTextbausteinEintrag": [
+        {
+            "BausteinId": "5",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Html - Head",
+            "WasAnzeigen": "NurInhalt"
+        },
+        {
+            "BausteinId": "42",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "LAP 2010/3 Ofentürsteuerung - Hardware",
+            "WasAnzeigen": "H1Inhalt"
+        },
+        {
+            "BausteinId": "43",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "LAP 2010/3 Ofentürsteuerung - Aufgabenstellung",
+            "WasAnzeigen": "H1Inhalt"
+        },
+        {
+            "BausteinId": "8",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Html - </body>",
+            "WasAnzeigen": "NurInhalt"
+        }
+    ]
+}

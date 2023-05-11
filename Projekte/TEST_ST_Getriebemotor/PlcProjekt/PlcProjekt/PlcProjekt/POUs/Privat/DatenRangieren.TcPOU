@@ -3,58 +3,60 @@
   <POU Name="DatenRangieren" Id="{ad49a684-d9e6-4dba-bece-08745f191ac1}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM DatenRangieren
 VAR	
-	VersionsText: STRING := 'Linearachse V3.0';
+	VersionsText: STRING := 'Getriebemotor V3.0';
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[STRNCPY (ADR( _plcToPc.PlcToPc[96]), ADR( VersionsText), SIZEOF(VersionsText));
 
 IF _PcToPlc.PcToPlc[96] = 16#00 THEN	// lokale Ein- und Ausgänge verwenden
-	DI.B1 := Plc_dSub.DI_1;
-	DI.B2 := Plc_dSub.DI_2;
-	DI.S2 := Plc_dSub.DI_3;
-	DI.S1 := Plc_dSub.DI_4;
-	DI.S4 := Plc_dSub.DI_5;
-	DI.S3 := Plc_dSub.DI_6;
+	DI.S2 := Plc_dSub.DI_1;
+	DI.S1 := Plc_dSub.DI_2;
+	DI.S4 := Plc_dSub.DI_3;
+	DI.S3 := Plc_dSub.DI_4;
+	DI.S5 := Plc_dSub.DI_5;
+	DI.S7 := Plc_dSub.DI_6;
 	DI.S6 := Plc_dSub.DI_7;
-	DI.S5 := Plc_dSub.DI_8;
-	DI.S8 := Plc_dSub.DI_9;
-	DI.S7 := Plc_dSub.DI_10;
-	DI.S9 := Plc_dSub.DI_11;
-	DI.S10 := Plc_dSub.DI_12;
-	DI.S11 := Plc_dSub.DI_13;
+	DI.S8 := Plc_dSub.DI_8;
+	
+	DI.S91 := Plc_dSub.DI_9;
+	DI.S92 := Plc_dSub.DI_10;
+	DI.B1 := Plc_dSub.DI_11;
+	DI.B2 := Plc_dSub.DI_12;
 	
 	Plc_dSub.DQ_1 := DA.Q1;
 	Plc_dSub.DQ_2 := DA.Q2;
-	Plc_dSub.DQ_3 := DA.P1;
-	Plc_dSub.DQ_4 := DA.P2;
-	Plc_dSub.DQ_5 := DA.P3;	
-	Plc_dSub.DQ_6 := DA.P4;
+	Plc_dSub.DQ_3 := DA.Q3;
+	Plc_dSub.DQ_4 := FALSE;
+	Plc_dSub.DQ_5 := DA.P1;	
+	Plc_dSub.DQ_6 := DA.P2;
+	Plc_dSub.DQ_6 := DA.P3;
+	Plc_dSub.DQ_6 := FALSE;
 	
 ELSE	// Simulation (Digital Twin) verwenden
 	
 	_PlcToPc.PlcToPc[0] := AlleBitSetzen(	DA.Q1,
 											DA.Q2,
+											DA.Q3,
+											FALSE,
 											DA.P1,
-											DA.P2,
-											DA.P3,	
-											DA.P4,	
-											FALSE,										
+											DA.P2,	
+											DA.P3,																						
 											FALSE);	
 											
-	DI.B1 := BitLesen(_PcToPlc.PcToPlc[0],0);
-	DI.B2 := BitLesen(_PcToPlc.PcToPlc[0],1);
-	DI.S2 := BitLesen(_PcToPlc.PcToPlc[0],2);
-	DI.S1 := BitLesen(_PcToPlc.PcToPlc[0],3);
-	DI.S4 := BitLesen(_PcToPlc.PcToPlc[0],4);
-	DI.S3 := BitLesen(_PcToPlc.PcToPlc[0],5);
+	DI.S2 := BitLesen(_PcToPlc.PcToPlc[0],0);
+	DI.S1 := BitLesen(_PcToPlc.PcToPlc[0],1);
+	DI.S4 := BitLesen(_PcToPlc.PcToPlc[0],2);
+	DI.S3 := BitLesen(_PcToPlc.PcToPlc[0],3);
+	DI.S5 := BitLesen(_PcToPlc.PcToPlc[0],4);
+	DI.S7 := BitLesen(_PcToPlc.PcToPlc[0],5);
 	DI.S6 := BitLesen(_PcToPlc.PcToPlc[0],6);
-	DI.S5 := BitLesen(_PcToPlc.PcToPlc[0],7);
-	DI.S8 := BitLesen(_PcToPlc.PcToPlc[1],0);
-	DI.S7 := BitLesen(_PcToPlc.PcToPlc[1],1);
-	DI.S9 := BitLesen(_PcToPlc.PcToPlc[1],2);
-	DI.S10 := BitLesen(_PcToPlc.PcToPlc[1],3);
-	DI.S11 := BitLesen(_PcToPlc.PcToPlc[1],4);
+	DI.S8 := BitLesen(_PcToPlc.PcToPlc[0],7);
+	
+	DI.S91 := BitLesen(_PcToPlc.PcToPlc[1],0);
+	DI.S92 := BitLesen(_PcToPlc.PcToPlc[1],1);
+	DI.B1  := BitLesen(_PcToPlc.PcToPlc[1],2);
+	DI.B2  := BitLesen(_PcToPlc.PcToPlc[1],3);
 END_IF]]></ST>
     </Implementation>
   </POU>

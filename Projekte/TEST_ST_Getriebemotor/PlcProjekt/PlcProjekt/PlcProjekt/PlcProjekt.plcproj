@@ -70,6 +70,9 @@
     <Compile Include="POUs\DeleteMe.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\Privat\IntegerLesen.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\Privat\SystemFunktionen.TcPOU">
       <SubType>Code</SubType>
     </Compile>

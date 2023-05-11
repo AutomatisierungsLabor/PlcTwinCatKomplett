@@ -1,0 +1,95 @@
+﻿{
+    "Bezeichnung": "Übungsplatte1",
+    "Kommentar": "Linearachse",
+    "ProjektDatei": "PlcProjekt.sln",
+    "SoftwareVersion": "TwinCatV3",
+    "ProgrammDigitalTwin": "DtLinearachse.exe",
+    "OrdnerDigitalTwin": "DtLinearachse",
+    "OrdnerDigitalTwinTemplate": "DtTemplate",
+    "OrdnerPlc": "TEST_ST_Linearachse",
+    "OrdnerTwinCatTemplate": "PlcTemplate",
+    "OrdnerFactoryIo": "-",
+    "Sprache": "St",
+    "Kategorie": "AutoTests",
+    "Jobs": [
+        "TemplateOrdnerKopieren",
+        "DeltaOrdnerKopieren",
+        "ProjektStarten",
+        "DigitalTwinKopieren",
+        "DigitalTwinStarten"
+    ],
+    "ListeTextbausteinEintrag": [
+        {
+            "BausteinId": "5",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Html - Head",
+            "WasAnzeigen": "NurInhalt"
+        },
+        {
+            "BausteinId": "55",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "LAP2018/3 Hydraulikaggregat - Hardware",
+            "WasAnzeigen": "H1Inhalt"
+        },
+        {
+            "BausteinId": "55",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "LAP2018/3 Hydraulikaggregat - Aufgabenstellung - Störungen",
+            "WasAnzeigen": "H1H2Inhalt"
+        },
+        {
+            "BausteinId": "55",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "LAP2018/3 Hydraulikaggregat - Aufgabenstellung - Betriebsbereitschaft",
+            "WasAnzeigen": "H2Inhalt"
+        },
+        {
+            "BausteinId": "55",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "LAP2018/3 Hydraulikaggregat - Aufgabenstellung - Erweiterung Ölkühler",
+            "WasAnzeigen": "H2Inhalt"
+        },
+        {
+            "BausteinId": "55",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "LAP2018/3 Hydraulikaggregat - Aufgabenstellung - Erweiterung Zylinder",
+            "WasAnzeigen": "H2Inhalt"
+        },
+        {
+            "BausteinId": "55",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "LAP2018/3 Hydraulikaggregat - Aufgabenstellung - Erweiterung Ölfilter",
+            "WasAnzeigen": "H2Inhalt"
+        },
+        {
+            "BausteinId": "8",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Html - </body>",
+            "WasAnzeigen": "NurInhalt"
+        }
+    ]
+}

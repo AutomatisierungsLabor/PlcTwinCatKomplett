@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.7">
+  <GVL Name="Plc_DIO" Id="{9f8b9e73-b170-409a-90cb-30daff2ba156}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	DI_1 AT %IX100.0: BOOL; 		// Digitaler Eingang 1
+	DI_2 AT %IX100.1: BOOL; 		// Digitaler Eingang 2
+	DI_3 AT %IX100.2: BOOL; 		// Digitaler Eingang 3
+	DI_4 AT %IX100.3: BOOL; 		// Digitaler Eingang 4
+	DI_5 AT %IX100.4: BOOL; 		// Digitaler Eingang 5
+	DI_6 AT %IX100.5: BOOL; 		// Digitaler Eingang 6
+	DI_7 AT %IX100.6: BOOL; 		// Digitaler Eingang 7
+	DI_8 AT %IX100.7: BOOL; 		// Digitaler Eingang 8
+	DI_9 AT %IX101.0: BOOL; 		// Digitaler Eingang 9
+	DI_10 AT %IX101.1: BOOL; 		// Digitaler Eingang 10
+	DI_11 AT %IX101.2: BOOL; 		// Digitaler Eingang 11
+	DI_12 AT %IX101.3: BOOL; 		// Digitaler Eingang 12
+	DI_13 AT %IX101.4: BOOL; 		// Digitaler Eingang 13
+	DI_14 AT %IX101.5: BOOL; 		// Digitaler Eingang 14
+	DI_15 AT %IX101.6: BOOL; 		// Digitaler Eingang 15
+	DI_16 AT %IX101.7: BOOL; 		// Digitaler Eingang 16
+	DI_LowByte 	AT %IB100: BYTE;	// Low Byte der Eingänge
+	DI_HighByte AT %IB101: BYTE;	// High Byte der Eingänge
+	DI_Word		AT %IW100: WORD;	// Eingänge als Word
+	
+	DQ_1 AT %QX100.0: BOOL; 		// Digitaler Ausgang 1
+	DQ_2 AT %QX100.1: BOOL; 		// Digitaler Ausgang 2
+	DQ_3 AT %QX100.2: BOOL; 		// Digitaler Ausgang 3
+	DQ_4 AT %QX100.3: BOOL; 		// Digitaler Ausgang 4
+	DQ_5 AT %QX100.4: BOOL; 		// Digitaler Ausgang 5
+	DQ_6 AT %QX100.5: BOOL; 		// Digitaler Ausgang 6
+	DQ_7 AT %QX100.6: BOOL; 		// Digitaler Ausgang 7
+	DQ_8 AT %QX100.7: BOOL; 		// Digitaler Ausgang 8
+	DQ_9 AT %QX101.0: BOOL; 		// Digitaler Ausgang 9
+	DQ_10 AT %QX101.1: BOOL; 		// Digitaler Ausgang 10
+	DQ_11 AT %QX101.2: BOOL; 		// Digitaler Ausgang 11
+	DQ_12 AT %QX101.3: BOOL; 		// Digitaler Ausgang 12
+	DQ_13 AT %QX101.4: BOOL; 		// Digitaler Ausgang 13
+	DQ_14 AT %QX101.5: BOOL; 		// Digitaler Ausgang 14
+	DQ_15 AT %QX101.6: BOOL; 		// Digitaler Ausgang 15
+	DQ_16 AT %QX101.7: BOOL; 		// Digitaler Ausgang 16
+	DQ_LowByte AT %QB100: BYTE;		// Low Byte der Ausgänge
+	DQ_HighByte AT %QB101: BYTE;	// High Byte der Ausgänge
+	DQ_Word		AT %QW100: WORD;	// Ausgänge als Word
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

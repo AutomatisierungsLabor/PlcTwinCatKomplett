@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.5">
+  <POU Name="DatenRangieren" Id="{ad49a684-d9e6-4dba-bece-08745f191ac1}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM DatenRangieren
+VAR	
+	VersionsText: STRING := 'LAP 2018/3 Hydrauliaggregat V3.0';
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[STRNCPY (ADR( _plcToPc.PlcToPc[96]), ADR( VersionsText), SIZEOF(VersionsText));
+
+IF _PcToPlc.PcToPlc[96] = 16#00 THEN	// lokale Ein- und Ausgänge verwenden
+	
+ELSE	// Simulation (Digital Twin) verwenden
+	
+	_PlcToPc.PlcToPc[0] := AlleBitSetzen(	DA.K1,
+											DA.K2,
+											DA.P1,
+											DA.P2,
+											DA.P3,
+											DA.P4,
+											DA.P5,									
+											DA.P6);	
+							
+	_PlcToPc.PlcToPc[1] := AlleBitSetzen(	DA.P7,
+											DA.P8,
+											DA.Q1,
+											DA.Q2,
+											DA.Q3,
+											DA.Q4,
+											FALSE,									
+											FALSE);
+					
+	DI.B1 := BitLesen(_PcToPlc.PcToPlc[0],0);
+	DI.B2 := BitLesen(_PcToPlc.PcToPlc[0],1);
+	DI.B3 := BitLesen(_PcToPlc.PcToPlc[0],2);
+	DI.B4 := BitLesen(_PcToPlc.PcToPlc[0],3);
+	DI.B5 := BitLesen(_PcToPlc.PcToPlc[0],4);
+	DI.F1 := BitLesen(_PcToPlc.PcToPlc[0],5);
+	DI.S1 := BitLesen(_PcToPlc.PcToPlc[0],6);
+	DI.S2 := BitLesen(_PcToPlc.PcToPlc[0],7);
+	DI.S3 := BitLesen(_PcToPlc.PcToPlc[1],0);
+	DI.S4 := BitLesen(_PcToPlc.PcToPlc[1],1);
+	
+END_IF]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

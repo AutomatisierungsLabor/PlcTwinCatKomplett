@@ -2385,14 +2385,14 @@ External Setpoint Generation:
 					<Vars VarGrpType="1">
 						<Name>PlcTask Inputs</Name>
 						<Var>
-							<Name>Plc_DIO.DI_1</Name>
-							<Comment><![CDATA[ Digitaler Eingang 1]]></Comment>
-							<Type>BIT</Type>
-						</Var>
-						<Var>
 							<Name>Plc_DIO.DI_LowByte</Name>
 							<Comment><![CDATA[ Low Byte der Eingänge]]></Comment>
 							<Type>BYTE</Type>
+						</Var>
+						<Var>
+							<Name>Plc_DIO.DI_1</Name>
+							<Comment><![CDATA[ Digitaler Eingang 1]]></Comment>
+							<Type>BIT</Type>
 						</Var>
 						<Var>
 							<Name>Plc_DIO.DI_2</Name>
@@ -2520,14 +2520,14 @@ External Setpoint Generation:
 							<Type>BIT</Type>
 						</Var>
 						<Var>
-							<Name>Plc_dSub.DI_9</Name>
-							<Comment><![CDATA[ Digitaler Eingang 9]]></Comment>
-							<Type>BIT</Type>
-						</Var>
-						<Var>
 							<Name>Plc_dSub.DI_HighByte</Name>
 							<Comment><![CDATA[ High Byte der Eingänge]]></Comment>
 							<Type>BYTE</Type>
+						</Var>
+						<Var>
+							<Name>Plc_dSub.DI_9</Name>
+							<Comment><![CDATA[ Digitaler Eingang 9]]></Comment>
+							<Type>BIT</Type>
 						</Var>
 						<Var>
 							<Name>Plc_dSub.DI_10</Name>
@@ -2576,73 +2576,18 @@ External Setpoint Generation:
 						</Var>
 						<Var>
 							<Name>DI.B1</Name>
-							<Comment><![CDATA[ Linearantrieb Endlage links (Öffner)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.B2</Name>
-							<Comment><![CDATA[ Linearantrieb Endlage rechts (Öffner)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S1</Name>
-							<Comment><![CDATA[ Taster (1) (Schliesser)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S2</Name>
-							<Comment><![CDATA[ Taster (0) (Öffner)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S3</Name>
-							<Comment><![CDATA[ Taster I (Schliesser)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S4</Name>
-							<Comment><![CDATA[ Taster II (Schliesser)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S5</Name>
-							<Comment><![CDATA[ Taster Pfeil auf (Schliesser)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S6</Name>
-							<Comment><![CDATA[ Taster Pfeil ab (Schliesser)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S7</Name>
-							<Comment><![CDATA[ Taster + (Schliesser)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S8</Name>
-							<Comment><![CDATA[ Taster - (Schliesser)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S9</Name>
-							<Comment><![CDATA[ Taster STOP (Öffner)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S10</Name>
-							<Comment><![CDATA[ Taster Not Halt (Öffner)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DI.S11</Name>
-							<Comment><![CDATA[ Taster Not Halt (Schliesser)]]></Comment>
+							<Comment><![CDATA[ Lichtschranke 0°]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
 							<Name>Plc_AN.AI_1</Name>
 							<Comment><![CDATA[ Analogeingang AI 1]]></Comment>
 							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>DI.B2</Name>
+							<Comment><![CDATA[ Lichtschranke 45° CCW]]></Comment>
+							<Type>BOOL</Type>
 						</Var>
 						<Var>
 							<Name>Plc_AN.AI_2</Name>
@@ -2659,18 +2604,68 @@ External Setpoint Generation:
 							<Comment><![CDATA[ Analogeingang 2]]></Comment>
 							<Type>INT</Type>
 						</Var>
+						<Var>
+							<Name>DI.S1</Name>
+							<Comment><![CDATA[ Taster (①) → Schliesser]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DI.S2</Name>
+							<Comment><![CDATA[ Taster (⓪) → Öffner]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DI.S3</Name>
+							<Comment><![CDATA[ Taster (Ⅰ) → Schliesser]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DI.S4</Name>
+							<Comment><![CDATA[ Taster (STOP) → Öffner]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DI.S5</Name>
+							<Comment><![CDATA[ Taster (Ⅱ) → Schliesser]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DI.S6</Name>
+							<Comment><![CDATA[ Taster (←) → Schliesser]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DI.S7</Name>
+							<Comment><![CDATA[ Taster (STOP) → Öffner]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DI.S8</Name>
+							<Comment><![CDATA[ Taster (→) → Schliesser]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DI.S91</Name>
+							<Comment><![CDATA[ Not-Halt → Schliesser]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DI.S92</Name>
+							<Comment><![CDATA[ Not-Halt → Öffner	]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
 					</Vars>
 					<Vars VarGrpType="2" AreaNo="1">
 						<Name>PlcTask Outputs</Name>
 						<Var>
-							<Name>Plc_DIO.DQ_LowByte</Name>
-							<Comment><![CDATA[ Low Byte der Ausgänge]]></Comment>
-							<Type>BYTE</Type>
-						</Var>
-						<Var>
 							<Name>Plc_DIO.DQ_1</Name>
 							<Comment><![CDATA[ Digitaler Ausgang 1]]></Comment>
 							<Type>BIT</Type>
+						</Var>
+						<Var>
+							<Name>Plc_DIO.DQ_LowByte</Name>
+							<Comment><![CDATA[ Low Byte der Ausgänge]]></Comment>
+							<Type>BYTE</Type>
 						</Var>
 						<Var>
 							<Name>Plc_DIO.DQ_2</Name>
@@ -2753,14 +2748,14 @@ External Setpoint Generation:
 							<Type>BIT</Type>
 						</Var>
 						<Var>
-							<Name>Plc_dSub.DQ_LowByte</Name>
-							<Comment><![CDATA[ Low Byte der Ausgänge]]></Comment>
-							<Type>BYTE</Type>
-						</Var>
-						<Var>
 							<Name>Plc_dSub.DQ_1</Name>
 							<Comment><![CDATA[ Digitaler Ausgang 1]]></Comment>
 							<Type>BIT</Type>
+						</Var>
+						<Var>
+							<Name>Plc_dSub.DQ_LowByte</Name>
+							<Comment><![CDATA[ Low Byte der Ausgänge]]></Comment>
+							<Type>BYTE</Type>
 						</Var>
 						<Var>
 							<Name>Plc_dSub.DQ_2</Name>
@@ -2853,36 +2848,6 @@ External Setpoint Generation:
 							<Type>WORD</Type>
 						</Var>
 						<Var>
-							<Name>DA.Q1</Name>
-							<Comment><![CDATA[ Linearantrieb Rechtslauf]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DA.Q2</Name>
-							<Comment><![CDATA[ Linearantrieb Linkslauf]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DA.P1</Name>
-							<Comment><![CDATA[ Meldeleuchte im Taster S1 (weiß)]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DA.P2</Name>
-							<Comment><![CDATA[ Meldeleuchte weiß]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DA.P3</Name>
-							<Comment><![CDATA[ Meldeleuchte rot]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>DA.P4</Name>
-							<Comment><![CDATA[ Meldeleuchte grün]]></Comment>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
 							<Name>Plc_AN.AQ_1</Name>
 							<Comment><![CDATA[ Analogausgang AQ 1]]></Comment>
 							<Type>INT</Type>
@@ -2901,6 +2866,36 @@ External Setpoint Generation:
 							<Name>Plc_dSub.AQ_2</Name>
 							<Comment><![CDATA[ Analogausgang 2]]></Comment>
 							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>DA.P2</Name>
+							<Comment><![CDATA[ Meldeleuchte grün]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DA.Q1</Name>
+							<Comment><![CDATA[ Motor Schnell (RL)]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DA.P1</Name>
+							<Comment><![CDATA[ Meldeleuchte weiss]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DA.P3</Name>
+							<Comment><![CDATA[ Meldeleuchte rot]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DA.Q2</Name>
+							<Comment><![CDATA[ Motor Linkslauf]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>DA.Q3</Name>
+							<Comment><![CDATA[ Motor Langsam (RL)]]></Comment>
+							<Type>BOOL</Type>
 						</Var>
 					</Vars>
 					<Contexts>

@@ -60,11 +60,7 @@
         {
             "Ordner": "PlcProjekt\\PlcProjekt\\PlcProjekt\\GVLs",
             "Dateien": [
-                "AA.TcGVL",
-                "AI.TcGVL",
                 "Blinker.TcGVL",
-                "DA.TcGVL",
-                "DI.TcGVL",
                 "Plc_AN.TcGVL",
                 "Plc_DIO.TcGVL",
                 "Plc_dSub.TcGVL",
@@ -84,6 +80,7 @@
                 "AlleBitSetzen.TcPOU",
                 "BitLesen.TcPOU",
                 "DatenRangieren.TcPOU",
+                "IntegerLesen.TcPOU",
                 "SystemFunktionen.TcPOU"
             ]
         }

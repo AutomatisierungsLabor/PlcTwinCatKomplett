@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.5">
+  <GVL Name="DI" Id="{c2d05302-d374-4f85-80dd-41006a3e3277}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL	
+	B1 AT %Q*: BOOL;	// Endschalter Offen
+	B2 AT %Q*: BOOL;   // Endschalter Geschlossen
+	B3 AT %Q*: BOOL;   // Lichtschranke
+	S1 AT %Q*: BOOL;   // Taster "Halt"
+	S2 AT %Q*: BOOL;   // Taster "Öffnen"
+	S3 AT %Q*: BOOL;   // Taster "Schliessen"
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

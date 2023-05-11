@@ -29,7 +29,7 @@
             "WasAnzeigen": "NurInhalt"
         },
         {
-            "BausteinId": "153",
+            "BausteinId": "20",
             "PrefixH1": "1. ",
             "PrefixH2": "",
             "VorbereitungId": "0",
@@ -38,7 +38,7 @@
             "WasAnzeigen": "H1Inhalt"
         },
         {
-            "BausteinId": "154",
+            "BausteinId": "21",
             "PrefixH1": "2. ",
             "PrefixH2": "2.1 ",
             "VorbereitungId": "0",
@@ -47,7 +47,7 @@
             "WasAnzeigen": "H1H2Inhalt"
         },
         {
-            "BausteinId": "155",
+            "BausteinId": "22",
             "PrefixH1": "2. ",
             "PrefixH2": "2.2 ",
             "VorbereitungId": "0",
@@ -56,7 +56,7 @@
             "WasAnzeigen": "H2Inhalt"
         },
         {
-            "BausteinId": "156",
+            "BausteinId": "23",
             "PrefixH1": "2. ",
             "PrefixH2": "2.3 ",
             "VorbereitungId": "0",
@@ -65,7 +65,7 @@
             "WasAnzeigen": "H2Inhalt"
         },
         {
-            "BausteinId": "157",
+            "BausteinId": "24",
             "PrefixH1": "2. ",
             "PrefixH2": "2.4 ",
             "VorbereitungId": "0",

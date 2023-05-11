@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.5">
+  <GVL Name="DI" Id="{c2d05302-d374-4f85-80dd-41006a3e3277}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL	
+	B1 AT %Q*: BOOL; // Schwimmerschalter oben
+	B2 AT %Q*: BOOL;     // Schwimmerschalter unten
+	F1 AT %Q*: BOOL;     // Thermorelais
+	S1 AT %Q*: BOOL;     // Wahlschalter Hand
+	S2 AT %Q*: BOOL;     // Wahlschalter Automatik
+	S3 AT %Q*: BOOL;      // Störung quittieren
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

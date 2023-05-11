@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.5">
+  <POU Name="DeleteMe" Id="{f156885e-d892-4706-970d-8d2a74171c01}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK DeleteMe
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+(*  *********************************************************** *)
+(*  LAP 2010/1 Kompressoranlage                                 *)
+(*  *********************************************************** *)
+
+DA.P1 := DI.S1;
+]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

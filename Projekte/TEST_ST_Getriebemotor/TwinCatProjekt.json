@@ -29,13 +29,49 @@
             "WasAnzeigen": "NurInhalt"
         },
         {
-            "BausteinId": "10",
+            "BausteinId": "25",
             "PrefixH1": "",
             "PrefixH2": "",
             "VorbereitungId": "0",
             "Test": "-",
-            "Kommentar": "Hier könnte Ihre Werbung stehen!",
-            "WasAnzeigen": "NurInhalt"
+            "Kommentar": "Getriebemotor - Hardware",
+            "WasAnzeigen": "H1Inhalt"
+        },
+        {
+            "BausteinId": "26",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Getriebemotor - Variante 1",
+            "WasAnzeigen": "H1H2Inhalt"
+        },
+        {
+            "BausteinId": "27",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Getriebemotor - Variante 2",
+            "WasAnzeigen": "H1H2Inhalt"
+        },
+        {
+            "BausteinId": "28",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Getriebemotor - Variante 3",
+            "WasAnzeigen": "H1H2Inhalt"
+        },
+        {
+            "BausteinId": "29",
+            "PrefixH1": "",
+            "PrefixH2": "",
+            "VorbereitungId": "0",
+            "Test": "-",
+            "Kommentar": "Getriebemotor - Variante 4",
+            "WasAnzeigen": "H1H2Inhalt"
         },
         {
             "BausteinId": "8",

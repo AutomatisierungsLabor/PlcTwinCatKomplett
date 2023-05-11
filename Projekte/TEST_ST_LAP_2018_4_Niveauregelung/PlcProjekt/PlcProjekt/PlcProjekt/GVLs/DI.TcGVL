@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.5">
+  <GVL Name="DI" Id="{c2d05302-d374-4f85-80dd-41006a3e3277}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL	
+	B1	 AT %I* :BOOL;   	// 	Schwimmerschalter unten (Schliesser)
+	B2	 AT %I* :BOOL;   	// 	Schwimmerschalter mitte (Öffner)
+	B3	 AT %I* :BOOL;   	// 	Schwimmerschalter oben (Öffner)
+	F1	 AT %I* :BOOL;   	// 	Thermorelais Pumpe M1
+	F2	 AT %I* :BOOL;   	// 	Thermorelais Pumpe M2
+	S1	 AT %I* :BOOL;   	// 	Taster Start
+	S2	 AT %I* :BOOL;   	// 	Taster Stop
+	S3	 AT %I* :BOOL;   	// 	Taster Reset
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
