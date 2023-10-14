@@ -1,3 +1,3 @@
-cd %USERPROFILE%\PlcTwinCat
+cd %USERPROFILE%\PlcTwinCat\
 cd PlcProjekt
-start PlcProjekt.sln
+"C:\Program Files (x86)\Beckhoff\TcXaeShell\Common7\IDE\TcXaeShell.exe" PlcProjekt.sln

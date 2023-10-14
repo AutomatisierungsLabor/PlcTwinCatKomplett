@@ -1,15 +1,415 @@
 ﻿{
     "PlcProjektliste": [
         {
-            "Bezeichnung": "Übungsplatte",
-            "Kommentar": "Geriebemotor",
+            "Bezeichnung": "LAP_2010_1",
+            "Kommentar": "Kompressoranlage",
             "ProjektDatei": "PlcProjekt.sln",
             "SoftwareVersion": "TwinCatV3",
-            "ProgrammDigitalTwin": "DtGetriebemotor.exe",
-            "OrdnerDigitalTwin": "DtGetriebemotor",
+            "ProgrammDigitalTwin": "DtLap010_1_Kompressoranlage.exe",
+            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
+            "OrdnerPlc": "TEST_ST_LAP_2010_1_Kompressoranlage\\PlcProjekt",
             "OrdnerDigitalTwinTemplate": "DtTemplate",
-            "OrdnerPlc": "TEST_ST_Getriebemotor",
-            "OrdnerTwinCatTemplate": "PlcTemplate",
+            "OrdnerDigitalTwin": "DtLap010_1_Kompressoranlage",
+            "OrdnerFactoryIo": "-",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "TemplateOrdnerKopieren",
+                "DeltaOrdnerKopieren",
+                "ProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ],
+            "Textbausteine": [
+                {
+                    "BausteinId": "5",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - Head",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "10",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "8",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - </body>",
+                    "WasAnzeigen": "NurInhalt"
+                }
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2010_2",
+            "Kommentar": "Transportwagen",
+            "ProjektDatei": "PlcProjekt.sln",
+            "SoftwareVersion": "TwinCatV3",
+            "ProgrammDigitalTwin": "DtLap2010_2_Transportwagen.exe",
+            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
+            "OrdnerPlc": "TEST_ST_LAP_2010_2_Transportwagen\\PlcProjekt",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2010_2_Transportwagen",
+            "OrdnerFactoryIo": "-",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "TemplateOrdnerKopieren",
+                "DeltaOrdnerKopieren",
+                "ProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ],
+            "Textbausteine": [
+                {
+                    "BausteinId": "5",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - Head",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "10",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "8",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - </body>",
+                    "WasAnzeigen": "NurInhalt"
+                }
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2010_3",
+            "Kommentar": "Ofentuersteuerung",
+            "ProjektDatei": "PlcProjekt.sln",
+            "SoftwareVersion": "TwinCatV3",
+            "ProgrammDigitalTwin": "DtLap2010_3_Ofentuersteuerung.exe",
+            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
+            "OrdnerPlc": "TEST_ST_LAP_2010_3_Ofentuersteuerung\\PlcProjekt",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2010_3_Ofentuersteuerung",
+            "OrdnerFactoryIo": "-",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "TemplateOrdnerKopieren",
+                "DeltaOrdnerKopieren",
+                "ProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ],
+            "Textbausteine": [
+                {
+                    "BausteinId": "5",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - Head",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "10",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "8",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - </body>",
+                    "WasAnzeigen": "NurInhalt"
+                }
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2010_4",
+            "Kommentar": "Abfuellanlage",
+            "ProjektDatei": "PlcProjekt.sln",
+            "SoftwareVersion": "TwinCatV3",
+            "ProgrammDigitalTwin": "DtLap2010_4_Abfuellanlage.exe",
+            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
+            "OrdnerPlc": "TEST_ST_LAP_2010_4_Abfuellanlage\\PlcProjekt",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2010_4_Abfuellanlage",
+            "OrdnerFactoryIo": "-",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "TemplateOrdnerKopieren",
+                "DeltaOrdnerKopieren",
+                "ProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ],
+            "Textbausteine": [
+                {
+                    "BausteinId": "5",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - Head",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "10",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "8",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - </body>",
+                    "WasAnzeigen": "NurInhalt"
+                }
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2010_5",
+            "Kommentar": "Pumpensteuerung",
+            "ProjektDatei": "PlcProjekt.sln",
+            "SoftwareVersion": "TwinCatV3",
+            "ProgrammDigitalTwin": "DtLap2010_5_Pumpensteuerung.exe",
+            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
+            "OrdnerPlc": "TEST_ST_LAP_2010_5_Pumpensteuerung\\PlcProjekt",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2010_5_Pumpensteuerung",
+            "OrdnerFactoryIo": "-",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "TemplateOrdnerKopieren",
+                "DeltaOrdnerKopieren",
+                "ProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ],
+            "Textbausteine": [
+                {
+                    "BausteinId": "5",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - Head",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "10",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "8",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - </body>",
+                    "WasAnzeigen": "NurInhalt"
+                }
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2018_1",
+            "Kommentar": "Silosteuerung",
+            "ProjektDatei": "PlcProjekt.sln",
+            "SoftwareVersion": "TwinCatV3",
+            "ProgrammDigitalTwin": "DtLap2018_1_Silosteuerung.exe",
+            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
+            "OrdnerPlc": "TEST_ST_LAP_2018_1_Silosteuerung\\PlcProjekt",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2018_1_Silosteuerung",
+            "OrdnerFactoryIo": "-",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "TemplateOrdnerKopieren",
+                "DeltaOrdnerKopieren",
+                "ProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ],
+            "Textbausteine": [
+                {
+                    "BausteinId": "5",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - Head",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "10",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "8",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - </body>",
+                    "WasAnzeigen": "NurInhalt"
+                }
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2018_2",
+            "Kommentar": "Abfuellanlage",
+            "ProjektDatei": "PlcProjekt.sln",
+            "SoftwareVersion": "TwinCatV3",
+            "ProgrammDigitalTwin": "DtLap2018_2_Abfuellanlage.exe",
+            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
+            "OrdnerPlc": "TEST_ST_LAP_2018_2_Abfuellanlage\\PlcProjekt",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2018_2_Abfuellanlage",
+            "OrdnerFactoryIo": "-",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "TemplateOrdnerKopieren",
+                "DeltaOrdnerKopieren",
+                "ProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ],
+            "Textbausteine": [
+                {
+                    "BausteinId": "5",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - Head",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "10",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "8",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - </body>",
+                    "WasAnzeigen": "NurInhalt"
+                }
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2018_3",
+            "Kommentar": "Hydraulikaggregat",
+            "ProjektDatei": "PlcProjekt.sln",
+            "SoftwareVersion": "TwinCatV3",
+            "ProgrammDigitalTwin": "DtLap2018_3_Hydraulikaggregat.exe",
+            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
+            "OrdnerPlc": "TEST_ST_LAP_2018_3_Hydraulikaggregat\\PlcProjekt",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2018_3_Hydraulikaggregat",
+            "OrdnerFactoryIo": "-",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "TemplateOrdnerKopieren",
+                "DeltaOrdnerKopieren",
+                "ProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ],
+            "Textbausteine": [
+                {
+                    "BausteinId": "5",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - Head",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "10",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
+                    "WasAnzeigen": "NurInhalt"
+                },
+                {
+                    "BausteinId": "8",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
+                    "VorbereitungId": "0",
+                    "Test": "-",
+                    "Kommentar": "Html - </body>",
+                    "WasAnzeigen": "NurInhalt"
+                }
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2018_4",
+            "Kommentar": "Niveauregelung",
+            "ProjektDatei": "PlcProjekt.sln",
+            "SoftwareVersion": "TwinCatV3",
+            "ProgrammDigitalTwin": "DtLap2018_4_Niveauregelung.exe",
+            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
+            "OrdnerPlc": "TEST_ST_LAP_2018_4_Niveauregelung\\PlcProjekt",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2018_4_Niveauregelung",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
@@ -56,10 +456,10 @@
             "ProjektDatei": "PlcProjekt.sln",
             "SoftwareVersion": "TwinCatV3",
             "ProgrammDigitalTwin": "DtLinearachse.exe",
-            "OrdnerDigitalTwin": "DtLinearachse",
-            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerTwinCatTemplate": "_TwinCatTemplate",
             "OrdnerPlc": "TEST_ST_Linearachse",
-            "OrdnerTwinCatTemplate": "PlcTemplate",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLinearachse",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",

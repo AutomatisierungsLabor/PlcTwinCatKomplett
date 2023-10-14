@@ -1,252 +1,6 @@
 ﻿{
     "PlcProjektliste": [
         {
-            "Bezeichnung": "DigitalTwin",
-            "Kommentar": "Blinker",
-            "ProjektDatei": "PlcProjekt.sln",
-            "SoftwareVersion": "TwinCatV3",
-            "ProgrammDigitalTwin": "DtBlinker.exe",
-            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
-            "OrdnerPlc": "TEST_ST_Blinker\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtBlinker",
-            "OrdnerFactoryIo": "-",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "TemplateOrdnerKopieren",
-                "DeltaOrdnerKopieren",
-                "ProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStarten"
-            ],
-            "Textbausteine": [
-                {
-                    "BausteinId": "5",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Html - Head",
-                    "WasAnzeigen": "NurInhalt"
-                },
-                {
-                    "BausteinId": "10",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
-                    "WasAnzeigen": "NurInhalt"
-                },
-                {
-                    "BausteinId": "8",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Html - </body>",
-                    "WasAnzeigen": "NurInhalt"
-                }
-            ]
-        },
-        {
-            "Bezeichnung": "DigitalTwin",
-            "Kommentar": "Fibonacci",
-            "ProjektDatei": "PlcProjekt.sln",
-            "SoftwareVersion": "TwinCatV3",
-            "ProgrammDigitalTwin": "DtFibonacci.exe",
-            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
-            "OrdnerPlc": "TEST_ST_Blinklicht_Fibonacci\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtFibonacci",
-            "OrdnerFactoryIo": "-",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "TemplateOrdnerKopieren",
-                "DeltaOrdnerKopieren",
-                "ProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStarten"
-            ],
-            "Textbausteine": [
-                {
-                    "BausteinId": "5",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Html - Head",
-                    "WasAnzeigen": "NurInhalt"
-                },
-                {
-                    "BausteinId": "10",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
-                    "WasAnzeigen": "NurInhalt"
-                },
-                {
-                    "BausteinId": "8",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Html - </body>",
-                    "WasAnzeigen": "NurInhalt"
-                }
-            ]
-        },
-        {
-            "Bezeichnung": "DigitalTwin",
-            "Kommentar": "Kata",
-            "ProjektDatei": "PlcProjekt.sln",
-            "SoftwareVersion": "TwinCatV3",
-            "ProgrammDigitalTwin": "DtKata.exe",
-            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
-            "OrdnerPlc": "TEST_ST_Kata\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtKata",
-            "OrdnerFactoryIo": "-",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "TemplateOrdnerKopieren",
-                "DeltaOrdnerKopieren",
-                "ProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStarten"
-            ],
-            "Textbausteine": [
-                {
-                    "BausteinId": "5",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Html - Head",
-                    "WasAnzeigen": "NurInhalt"
-                },
-                {
-                    "BausteinId": "6",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "600",
-                    "Test": "4.2",
-                    "Kommentar": "Siemens - Kata - Hardware",
-                    "WasAnzeigen": "H1H2Inhalt"
-                },
-                {
-                    "BausteinId": "8",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Html - </body>",
-                    "WasAnzeigen": "NurInhalt"
-                }
-            ]
-        },
-        {
-            "Bezeichnung": "DigitalTwin",
-            "Kommentar": "Nadeltelegraph",
-            "ProjektDatei": "PlcProjekt.sln",
-            "SoftwareVersion": "TwinCatV3",
-            "ProgrammDigitalTwin": "DtNadeltelegraph.exe",
-            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
-            "OrdnerPlc": "TEST_ST_Nadeltelegraph\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtNadeltelegraph",
-            "OrdnerFactoryIo": "-",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "TemplateOrdnerKopieren",
-                "DeltaOrdnerKopieren",
-                "ProjektStarten"
-            ],
-            "Textbausteine": [
-                {
-                    "BausteinId": "5",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Html - Head",
-                    "WasAnzeigen": "NurInhalt"
-                },
-                {
-                    "BausteinId": "10",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
-                    "WasAnzeigen": "NurInhalt"
-                },
-                {
-                    "BausteinId": "8",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Html - </body>",
-                    "WasAnzeigen": "NurInhalt"
-                }
-            ]
-        },
-        {
-            "Bezeichnung": "DigitalTwin",
-            "Kommentar": "Schleifmaschine",
-            "ProjektDatei": "PlcProjekt.sln",
-            "SoftwareVersion": "TwinCatV3",
-            "ProgrammDigitalTwin": "DtSchleifmaschine.exe",
-            "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
-            "OrdnerPlc": "TEST_ST_Schleifmaschine\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtSchleifmaschine",
-            "OrdnerFactoryIo": "-",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "TemplateOrdnerKopieren",
-                "DeltaOrdnerKopieren",
-                "ProjektStarten"
-            ],
-            "Textbausteine": [
-                {
-                    "BausteinId": "5",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Html - Head",
-                    "WasAnzeigen": "NurInhalt"
-                },
-                {
-                    "BausteinId": "10",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Hier könnte Ihre Werbung stehen!",
-                    "WasAnzeigen": "NurInhalt"
-                },
-                {
-                    "BausteinId": "8",
-                    "PrefixH1": "",
-                    "PrefixH2": "",
-                    "VorbereitungId": "0",
-                    "Test": "-",
-                    "Kommentar": "Html - </body>",
-                    "WasAnzeigen": "NurInhalt"
-                }
-            ]
-        },
-        {
             "Bezeichnung": "LAP_2010_1",
             "Kommentar": "Kompressoranlage",
             "ProjektDatei": "PlcProjekt.sln",
@@ -254,8 +8,8 @@
             "ProgrammDigitalTwin": "DtLap010_1_Kompressoranlage.exe",
             "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
             "OrdnerPlc": "TEST_ST_LAP_2010_1_Kompressoranlage\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtLap010_1_Kompressoranlage",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap010_1_Kompressoranlage",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
@@ -304,8 +58,8 @@
             "ProgrammDigitalTwin": "DtLap2010_2_Transportwagen.exe",
             "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
             "OrdnerPlc": "TEST_ST_LAP_2010_2_Transportwagen\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtLap2010_2_Transportwagen",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2010_2_Transportwagen",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
@@ -354,8 +108,8 @@
             "ProgrammDigitalTwin": "DtLap2010_3_Ofentuersteuerung.exe",
             "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
             "OrdnerPlc": "TEST_ST_LAP_2010_3_Ofentuersteuerung\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtLap2010_3_Ofentuersteuerung",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2010_3_Ofentuersteuerung",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
@@ -404,8 +158,8 @@
             "ProgrammDigitalTwin": "DtLap2010_4_Abfuellanlage.exe",
             "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
             "OrdnerPlc": "TEST_ST_LAP_2010_4_Abfuellanlage\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtLap2010_4_Abfuellanlage",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2010_4_Abfuellanlage",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
@@ -454,8 +208,8 @@
             "ProgrammDigitalTwin": "DtLap2010_5_Pumpensteuerung.exe",
             "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
             "OrdnerPlc": "TEST_ST_LAP_2010_5_Pumpensteuerung\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtLap2010_5_Pumpensteuerung",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2010_5_Pumpensteuerung",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
@@ -504,8 +258,8 @@
             "ProgrammDigitalTwin": "DtLap2018_1_Silosteuerung.exe",
             "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
             "OrdnerPlc": "TEST_ST_LAP_2018_1_Silosteuerung\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtLap2018_1_Silosteuerung",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2018_1_Silosteuerung",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
@@ -554,8 +308,8 @@
             "ProgrammDigitalTwin": "DtLap2018_2_Abfuellanlage.exe",
             "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
             "OrdnerPlc": "TEST_ST_LAP_2018_2_Abfuellanlage\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtLap2018_2_Abfuellanlage",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2018_2_Abfuellanlage",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
@@ -604,8 +358,8 @@
             "ProgrammDigitalTwin": "DtLap2018_3_Hydraulikaggregat.exe",
             "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
             "OrdnerPlc": "TEST_ST_LAP_2018_3_Hydraulikaggregat\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtLap2018_3_Hydraulikaggregat",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2018_3_Hydraulikaggregat",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
@@ -654,8 +408,8 @@
             "ProgrammDigitalTwin": "DtLap2018_4_Niveauregelung.exe",
             "OrdnerTwinCatTemplate": "TwinCatTemplate\\PlcProjekt",
             "OrdnerPlc": "TEST_ST_LAP_2018_4_Niveauregelung\\PlcProjekt",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtLap2018_4_Niveauregelung",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLap2018_4_Niveauregelung",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
@@ -704,8 +458,8 @@
             "ProgrammDigitalTwin": "DtLinearachse.exe",
             "OrdnerTwinCatTemplate": "_TwinCatTemplate",
             "OrdnerPlc": "TEST_ST_Linearachse",
-            "OrdnerTemplateDigitalTwin": "DtTemplate",
-            "OrdnerDeltaDigitalTwin": "DtLinearachse",
+            "OrdnerDigitalTwinTemplate": "DtTemplate",
+            "OrdnerDigitalTwin": "DtLinearachse",
             "OrdnerFactoryIo": "-",
             "Sprache": "St",
             "Kategorie": "AutoTests",
