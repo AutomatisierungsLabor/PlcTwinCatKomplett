@@ -23,4 +23,6 @@ _Boot/
 _CompileInfo/
 _Libraries/
 _ModuleInstall/
-Projekte/TEST_ST_Getriebemotor/PlcProjekt/.vs/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
